@@ -64,16 +64,19 @@
 .challenge-5a {
   background-color: grey;
   width: 100vw;
-  display:flex
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
 
 }
 
 .challenge-5b {
   background-color: lightgray;
   width: 100vw;
-  /* bottom section, add code below */
-
-
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -91,13 +94,14 @@ on the children, the rest are properties you have used in past challenges
 .challenge-6 {
   width: 100vw;
   height: 320px;
-    /* add code below */
+  
 
 }
 
 .c-6-child-1 {
   background-color: lightgrey;
-  /* add code below */
+  display: flex;
+
 
 
 }
